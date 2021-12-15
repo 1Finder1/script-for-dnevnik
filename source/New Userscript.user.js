@@ -27,9 +27,14 @@
         for (var j = 0; j<current_marks_elements.length; j++){
             sum_marks = sum_marks + parseInt(current_marks_elements[j].innerHTML)
             count = count+1
+            console.log(j, count)
         }
-        average_score = sum_marks/count
-        console.log(average_score)
-        current_tr.append('<th><span class="mark">' + average_score.toFixed(2) + '</span></th>')
+        average_score = (sum_marks/count).toFixed(2)
+        var mark_class = 'mG'
+
+        if (2.5 < average_score && average_score < 3.5){mark_class = 'mY'}
+        if (average_score < 2.5){mark_class = 'mR'}
+
+        current_tr.append('<th><span class="mark '+mark_class+'">' + average_score + '</span></th>')
     }
 })();
