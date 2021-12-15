@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         average_score
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1
 // @description  try to take over the world!
-// @author       You
+// @author       KrasBaDA
 // @match        https://schools.dnevnik.ru/marks.aspx*tab=period*
 // @icon         https://www.google.com/s2/favicons?domain=dnevnik.ru
 // @grant        none
