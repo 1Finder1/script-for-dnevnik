@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://schools.dnevnik.ru/marks.aspx?school=54250&index=6&tab=period&homebasededucation=False
+// @match        https://schools.dnevnik.ru/marks.aspx*
 // @icon         https://www.google.com/s2/favicons?domain=dnevnik.ru
 // @grant        none
 // ==/UserScript==
