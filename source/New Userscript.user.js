@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://schools.dnevnik.ru/marks.aspx*
+// @match        https://schools.dnevnik.ru/marks.aspx*tab=period*
 // @icon         https://www.google.com/s2/favicons?domain=dnevnik.ru
 // @grant        none
 // ==/UserScript==
@@ -27,7 +27,6 @@
         for (var j = 0; j<current_marks_elements.length; j++){
             sum_marks = sum_marks + parseInt(current_marks_elements[j].innerHTML)
             count = count+1
-            console.log(j, count)
         }
         average_score = (sum_marks/count).toFixed(2)
         var mark_class = 'mG'
